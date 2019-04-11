@@ -1,0 +1,45 @@
+.list-item-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.list-item {
+  max-width: 65%;
+}
+
+.list-item-name {
+  font-size: 1rem;
+}
+
+.list-item-deadline {
+  font-size: 0.7rem;
+  padding-top: 10px;
+}
+
+.list-item-container {
+  border-bottom: 3px groove;
+}
+
+.list-item-name, .list-item-deadline {
+  display: block;
+  text-transform: capitalize;
+}
+
+.list-item-name {
+  color: #484848;
+}
+
+.list-item-deadline {
+  color:	#A9A9A9;
+}
+
+.cta-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.cta-container > button {
+  margin-bottom: 5px;
+}
