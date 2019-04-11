@@ -1,0 +1,15 @@
+.front-door {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.username-input {
+  height: 24px;
+  margin-right: 10px;
+}
+
+@media (max-width: 539px) {
+  .front-door__input-container {
+    margin-top: 50px;
+  }
+}
