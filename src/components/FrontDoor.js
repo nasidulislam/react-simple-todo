@@ -15,7 +15,7 @@ class FrontDoor extends React.Component {
       <form className="front-door" onSubmit={this.goToTaskList}>
         <div className="front-door__header-container">
           <h1>Welcome !</h1>
-          <h3>Please enter a username</h3>
+          <h3 className="frontdoor-header-subtext">Please enter a username</h3>
         </div>
 
         <div className="front-door__input-container">
@@ -25,6 +25,7 @@ class FrontDoor extends React.Component {
             type="text"
             name="username"
             ref={this.userNameInput}
+            placeholder="Username"
           />
 
           <button

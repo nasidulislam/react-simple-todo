@@ -6,6 +6,11 @@
 .username-input {
   height: 24px;
   margin-right: 10px;
+  padding-left: 10px;
+}
+
+.frontdoor-header-subtext {
+    margin-top: 15px;
 }
 
 @media (max-width: 539px) {
